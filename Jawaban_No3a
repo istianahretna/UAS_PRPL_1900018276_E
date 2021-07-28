@@ -1,16 +1,14 @@
-a. Terjadi penambahan fitur atau perubahan requirement, dari dilakukannya membuat suatu class baru yang mengimplementasikan sebuah interface ataupun abstract.
+a. Apabila menambahkan class baru yang meng-implements interface, akan terjadi penambahan fitur atau perubahan requirement,
+dari dilakukannya membuat suatu class baru yang mengimplementasikan sebuah interface ataupun abstract.
 
 
-b. Dengan membuat suatu class khusus yang dimana class tersebut terdapat variable yang merujuk dan mengembalikan data dari method class class yang telah dibuat, 
-dan selanjutnya dibuat suatu parameter yang berguna memanggil class tersebut, sehingga data bisa ditampilkan pada halaman web. Untuk lebih jelas, 
-pada program yang tertera pada github yaitu program payable.php, terdapat code berikut:
+b. Cara memanggil tiap class tersebut dilakukan dengan membuat suatu class khusus yang dimana class tersebut terdapat variable yang merujuk dan mengembalikan data 
+dari method class class yang telah dibuat, dan selanjutnya dibuat suatu parameter yang berguna memanggil class tersebut, sehingga data bisa ditampilkan pada halaman web.
+Untuk lebih jelas, pada program yang tertera pada github yaitu program payable.php, terdapat code berikut:
 
 $jenis = 'credit';
-
 $paymentFactory = new PaymentFactory();
-
 $payment = $paymentFactory->initializePayment($jenis);
-
 print_r($payment->pay());
 
 Jadi perintah untuk memanggil method atau function dari sebuah class-class pada program, dilakukan dengan menggunakan objek yang ditulisakan “$nama_object -> $nama_method()” 
@@ -18,3 +16,5 @@ seperti yang ada pada program payable.php, yang mana pada program payable.php te
 yang menampung  objek   $paymentFactory->initializePayment($jenis) untuk memanggil suatu data jenis pembayaran dengan variable $jenis.
 Dan jenis pembayaran yang di deklarasikan pada program tersebut akan menampilkan hasil perintah method “initializePayment($type)” yang akan mengakses data dari property 
 didalam class “PaymentFactory”, Kemudian data dioutputkan dengan perintah “print_r($payment->pay())”.
+
+
