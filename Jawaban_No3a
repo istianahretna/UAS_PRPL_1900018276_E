@@ -2,7 +2,8 @@
 dari dilakukannya membuat suatu class baru yang mengimplementasikan sebuah interface ataupun abstract.
 
 
--> Untuk memanggil tiap class pada awal mulanya dengan meng-Overide method yang ada pada interface. Sedangkan interface merupakan method yang bisa diturunkan atau diwariskan kepada class class lain yang akan memakainya. Selanjutnya class mengimplementasikan sebuah interface yang telah dibuat dengan code implements. 
+-> Untuk memanggil tiap class pada awal mulanya dengan meng-Overide method yang ada pada interface. Sedangkan interface merupakan method yang bisa diturunkan 
+atau diwariskan kepada class class lain yang akan memakainya. Selanjutnya class mengimplementasikan sebuah interface yang telah dibuat dengan code implements. 
 pemanggilan tiap class tersebut dilakukan dengan membuat suatu class khusus, yang dimana class tersebut terdapat variable yang merujuk dan mengembalikan data 
 dari method class class yang telah dibuat, dan selanjutnya dibuat suatu parameter yang berguna memanggil class tersebut, sehingga data bisa ditampilkan pada halaman web.
 Untuk lebih jelas, pada program yang tertera pada github yaitu program payable.php, terdapat code berikut:
