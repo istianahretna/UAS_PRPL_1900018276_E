@@ -1,10 +1,12 @@
 a.	Prinsip single solid
-Prinsip single ini mewajibkan setiap class hanya bertanggung jawab atau hanya memiliki satu tugas, dan jangan sampai satu class memiliki lebih dari satu tugas. Dan hanya memiliki satu alasan untuk diubah, sehingga alasan untuk merubah class tersebut hanya satu, yaitu merubah tugas yang diberikan kepadanya.
+Prinsip single ini mewajibkan setiap class hanya bertanggung jawab atau hanya memiliki satu tugas, dan jangan sampai satu class memiliki lebih dari satu tugas. 
+Dan hanya memiliki satu alasan untuk diubah, sehingga alasan untuk merubah class tersebut hanya satu, yaitu merubah tugas yang diberikan kepadanya.
 Kelebihannya:
 -	Pada setiap class yang hanya bertanggung jawab untuk memiliki satu tugas saja, akan lebih fokus pada satu tanggung jawab tugas tersebut, serta mudah di maintance code nya.  
 
 b.	Prinsip open/closed
-Merupakan prinsip yang menyatakan bahwa objek atau entitas dapat terbuka untuk di extend namun tertutup/“close” untuk modifikasi. Atau dengan kata lain, sebuah class harus bisa dikembangkan tanpa memodifikasi kelas itu sendiri.
+Merupakan prinsip yang menyatakan bahwa objek atau entitas dapat terbuka untuk di extend namun tertutup/“close” untuk modifikasi. 
+Atau dengan kata lain, sebuah class harus bisa dikembangkan tanpa memodifikasi kelas itu sendiri.
 Kelebihan:
 -	Dapat menghindari keretakan software akibat perubahan secara langsung terhadap sebuah class, module, function. Terjadinya keretakan ini akibat melanggar prinsip Open/Closed.
 -	Dapat menghindari kemungkinan terjadinya bug bug baru, saat merubah implementasi code yang sudah ada.
