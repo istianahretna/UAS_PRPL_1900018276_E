@@ -1,8 +1,9 @@
-a. Apabila menambahkan class baru yang meng-implements interface, akan terjadi penambahan fitur atau perubahan requirement,
+-> Apabila menambahkan class baru yang meng-implements interface, akan terjadi munculnya penambahan fitur fitur tambahan dan perubahan requirement,
 dari dilakukannya membuat suatu class baru yang mengimplementasikan sebuah interface ataupun abstract.
 
 
-b. Cara memanggil tiap class tersebut dilakukan dengan membuat suatu class khusus yang dimana class tersebut terdapat variable yang merujuk dan mengembalikan data 
+-> Untuk memanggil tiap class pada awal mulanya dengan meng-Overide method yang ada pada interface. Sedangkan interface merupakan method yang bisa diturunkan atau diwariskan kepada class class lain yang akan memakainya. Selanjutnya class mengimplementasikan sebuah interface yang telah dibuat dengan code implements. 
+pemanggilan tiap class tersebut dilakukan dengan membuat suatu class khusus, yang dimana class tersebut terdapat variable yang merujuk dan mengembalikan data 
 dari method class class yang telah dibuat, dan selanjutnya dibuat suatu parameter yang berguna memanggil class tersebut, sehingga data bisa ditampilkan pada halaman web.
 Untuk lebih jelas, pada program yang tertera pada github yaitu program payable.php, terdapat code berikut:
 
